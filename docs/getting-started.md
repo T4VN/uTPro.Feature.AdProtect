@@ -4,7 +4,7 @@
 
 AdProtect decides per visitor whether your ad code is served at all, and keeps a
 click-intent log with automatic cooldowns. The package self-wires: installing the
-NuGet package is enough â€” no `Program.cs` changes.
+NuGet package is enough — no `Program.cs` changes.
 
 ## Install
 
@@ -57,5 +57,5 @@ collateral damage (default: 10 clicks/IP/day, 3 clicks/cookie/day, 24 h cooldown
 
 ## Next steps
 
-- [Configuration](configuration.md) â€” all knobs, live settings, ASN TSV data source
-- [Integration with uTPro](integration-utpro.md) â€” multi-site + static front-end setup
+- [Configuration](configuration.md) — all knobs, live settings, ASN TSV data source
+- [Integration with uTPro](integration-utpro.md) — multi-site + static front-end setup

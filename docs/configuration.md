@@ -17,7 +17,7 @@
 | `SeedDatacenterAsnRule` | `false` | On first boot, insert the built-in datacenter-ASN block rules (disabled). Enable once, then manage in Rules. |
 
 Everything else lives in the database and is edited live from **Settings -> AdProtect ->
-Settings** â€” effective on the next request, no restart, no redeploy.
+Settings** — effective on the next request, no restart, no redeploy.
 
 ## Live settings (backoffice)
 
@@ -28,8 +28,8 @@ Scoped **Global** or per-host:
 | Max clicks per IP per day | 10 | Budget before an automatic cooldown |
 | Max clicks per cookie per day | 3 | The primary budget (CGNAT-aware) |
 | Cooldown hours | 24 | How long an over-budget visitor stops seeing ads |
-| AdSense client id | â€” | Publisher id used by `<utc-ad>` |
-| Placeholder HTML | â€” | Optional HTML shown in denied slots that opted in (`placeholder` attribute) |
+| AdSense client id | — | Publisher id used by `<utc-ad>` |
+| Placeholder HTML | — | Optional HTML shown in denied slots that opted in (`placeholder` attribute) |
 | Store hashed IPs | off | Store IPs as keyed HMAC-SHA256 (still matchable, GDPR-friendlier). Toggling makes old rows unmatchable. |
 
 ## Rules
@@ -53,7 +53,7 @@ By default ASN rules match only the `Cf-Asn` edge header. For offline matching d
 
     App_Data/AdProtect/ip2asn.tsv
 
-(range_start, range_end, AS_number, country, description â€” tab-separated; IPv4 ranges;
+(range_start, range_end, AS_number, country, description — tab-separated; IPv4 ranges;
 IPv6 rows are skipped.) The file is loaded lazily on first use; replace the file and
 recycle the app to refresh.
 
@@ -61,5 +61,5 @@ recycle the app to refresh.
 
 - The anonymous cookie `utpro_ap_id` is functional (anti-abuse), HttpOnly, 1 year.
 - `POST /click` accepts only HMAC-bound one-use tokens issued by `/check` for that exact
-  (cookie, host, slot) â€” no client-supplied IPs, no replay (PRD Â§9).
+  (cookie, host, slot) — no client-supplied IPs, no replay.
 - Public endpoints answer 200 with minimal bodies; deny reasons never leave the server.

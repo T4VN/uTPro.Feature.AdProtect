@@ -4,7 +4,7 @@ Invalid-click protection and ad-serving control for Umbraco sites monetized with
 Google AdSense (or any ad network). Think "Ad Invalid Click Protector" (AICP) for
 WordPress — rebuilt native for Umbraco/.NET, cache-safe and multi-site aware.
 
-Works with **Umbraco 16, 17 and 18** (multi-targeted `net9.0` / `net10.0`).
+Works with **Umbraco 17 and 18**.
 
 **Documentation:** <https://docs.utpro.dev/uTPro.Feature.AdProtect/>
 
