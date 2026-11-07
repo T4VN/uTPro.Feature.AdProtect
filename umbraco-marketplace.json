@@ -1,0 +1,30 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "Title": "uTPro AdProtect",
+  "Description": "Invalid-click protection and ad-serving control for Umbraco sites monetized with Google AdSense (or any ad network). Decides per visitor whether ad code is served: blocks bots/scanners via IP/CIDR/country/ASN rules, counts ad-click intent per IP and per anonymous cookie, auto-cools down repeat clickers, with a full backoffice dashboard. Cache-safe, CGNAT-aware, optional hashed-IP storage.",
+  "Category": "Developer Tools",
+  "AuthorDetails": {
+    "Name": "T4VN",
+    "Url": "https://t4vn.com",
+    "ImageUrl": "https://github.com/t4vn.png",
+    "SyncContributorsFromRepository": true
+  },
+  "Screenshots": [],
+  "LicenseTypes": ["Free"],
+  "Tags": [
+    "adsense",
+    "invalid click",
+    "click fraud",
+    "invalid traffic",
+    "ad serving",
+    "publisher",
+    "monetization",
+    "adprotect",
+    "bot protection",
+    "backoffice"
+  ],
+  "LookingForContributors": true,
+  "PackageType": "Package",
+  "DocumentationUrl": "https://docs.utpro.dev/uTPro.Feature.AdProtect/",
+  "IssueTrackerUrl": "https://github.com/T4VN/uTPro.Feature.AdProtect/issues"
+}

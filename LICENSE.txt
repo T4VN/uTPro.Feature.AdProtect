@@ -1,0 +1,22 @@
+uTPro AdProtect — End User License Agreement (EULA)
+===================================================
+
+Copyright (c) 2026 T4VN. All rights reserved.
+
+This software is provided as a compiled NuGet package. You may use it free of charge in any
+project, including commercial projects.
+
+You may NOT:
+  - Modify, reverse engineer, decompile, or disassemble the package.
+  - Redistribute the package source code or compiled output outside of NuGet.
+  - Remove or alter any copyright notices.
+
+ADSENSE / AD NETWORK TERMS OF SERVICE NOTICE: AdProtect only *withholds* ad code from
+selected visitors. It never modifies ad markup, frames clicks, or encourages clicks.
+Hiding ads for a subset of visitors is within the intent of the Google AdSense program
+policies; changing the ad code itself is not, and this package does not.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+
+For questions: https://github.com/T4VN
